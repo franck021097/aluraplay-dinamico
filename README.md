@@ -18,3 +18,8 @@
 ![Screenshot de la pantalla inicial de AluraPlay](https://github.com/josevflores911/JavaScript/blob/main/img/encabezado/screenshoot_a.PNG)
 ![Screenshot de la pantalla del formulário do AluraPlay](https://github.com/josevflores911/JavaScript/blob/main/img/encabezado/screenshoot_b.PNG)
 ![Screenshot de la pantalla del envio exitoso de video](https://github.com/josevflores911/JavaScript/blob/main/img/encabezado/screenshoot_b.PNG)
+
+
+## Comandos local
+
+npx json-server --watch db.json --port 3001
