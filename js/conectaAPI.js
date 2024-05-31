@@ -1,13 +1,10 @@
-import getData from 'getData';
+import handler from '../api/getData';
 
 async function listaVideos(){
     try{
         // const conexion = await fetch("http://localhost:3001/videos"
-        const client = await pool.connect();
-        const result = await client.query('SELECT * FROM aluraplay');
-        const rows = result.rows;
 
-        console.log(getData.res);
+        console.log(handler.res);
         /*,{
         method:"GET",
         headers:{
