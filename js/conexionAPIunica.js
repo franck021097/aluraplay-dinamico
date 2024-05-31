@@ -1,5 +1,6 @@
 
-    const url = "http://localhost:3001/videos";
+    const url = "https://aluraplay-dinamico-nu.vercel.app/api/getData";
+    // const url = "http://localhost:3001/videos";
     const videosContenedor = document.querySelector(".videos__container");
 
 

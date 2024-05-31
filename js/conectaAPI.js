@@ -1,4 +1,4 @@
-import '../api/getData.js';
+import '../api/getData';
 
 async function listaVideos(){
     try{
