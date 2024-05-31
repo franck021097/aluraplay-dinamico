@@ -1,10 +1,10 @@
-import handler from '../api/getData';
+import getData from '../api/getData';
 
 async function listaVideos(){
     try{
         // const conexion = await fetch("http://localhost:3001/videos"
 
-        console.log(handler.res);
+        console.log(getData);
         /*,{
         method:"GET",
         headers:{
