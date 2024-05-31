@@ -3,7 +3,7 @@ import getData from '../api/getData';
 async function listaVideos(){
     try{
         // const conexion = await fetch("http://localhost:3001/videos"
-        const conexion = getData.handler();
+        const conexion = await getData.handler();
         console.log(conexion);
         /*,{
         method:"GET",
@@ -14,7 +14,7 @@ async function listaVideos(){
     }*/
 
         if(conexion.ok){
-            const conexionConvertida=await conexion.json();
+            const conexionConvertida= await conexion.json();
             console.log(conexionConvertida);
             return conexionConvertida;
         }else{
