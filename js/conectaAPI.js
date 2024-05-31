@@ -1,10 +1,8 @@
-import '../api/getData';
 
 async function listaVideos(){
     try{
-        // const conexion = await fetch("http://localhost:3001/videos");
-        const conexion = await getData.handler();
-        console.log(conexion);
+        const conexion = await fetch("http://localhost:3001/videos");
+        // console.log(conexion);
         /*,{
         method:"GET",
         headers:{
