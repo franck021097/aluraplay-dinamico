@@ -1,6 +1,6 @@
 async function listaVideos(){
     try{
-        const conexion = await fetch("http://localhost:3001/videos"/*,{
+        const conexion = await fetch("ep-quiet-scene-a4wcfgo8-pooler.us-east-1.aws.neon.tech"/*,{
         method:"GET",
         headers:{
         "Content-type":"application/json",

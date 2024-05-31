@@ -9,80 +9,38 @@
     },
     {
       "id": 2,
-      "titulo": "¿Cómo ser un Profesional en T? Conociendo al Tech Guide",
-      "descripcion": "1,5 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/0udk1vXmwkc",
+      "titulo": "¿Qué es JavaScript? - Curso de JavaScript desde cero",
+      "descripcion": "5 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/W6NZfCO5SIk",
       "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 3,
-      "titulo": "¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido",
-      "descripcion": "30 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/MXPhyN5t0uQ",
+      "titulo": "Introducción a React - Aprende los conceptos básicos",
+      "descripcion": "2 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/Ke90Tje7VS0",
       "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 4,
-      "titulo": "¿Qué significa ser un Desarrollador Full Stack?",
-      "descripcion": "2,5 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/eejIHbOk_uI",
+      "titulo": "Python para principiantes - Curso completo en Español",
+      "descripcion": "10 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/_uQrJ0TkZlc",
       "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
       "id": 5,
-      "titulo": "Como utilizar el Display block, inline, inline-block #aluramás",
-      "descripcion": "1,2 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/AG2QssLpQzI",
+      "titulo": "Curso de Git y GitHub desde cero",
+      "descripcion": "8 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/RGOj5yH7evk",
       "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
     },
     {
-      "id": 6,
-      "titulo": "Explorando el poder del Back-End en el Desarrollo Web",
-      "descripcion": "1,6 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/Z024LSCMqFk",
-      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "id": 7,
-      "titulo": "¿Sabes cómo organizar tu rutina de estudio? Descubre aquí | #aluramás",
-      "descripcion": "3,2 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/Nts3P35mHzE",
-      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "id": 8,
-      "titulo": "Cómo evitar robo de vehículo con Inteligencia Artificial | #aluramás",
-      "descripcion": "1,2 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/5T_Q_NtNLZE",
-      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-    },
-    {
-      "titulo": "Descubre el poder del Machine Learning",
-      "descripcion": "1 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/edS0Fhg0xyM",
-      "imagen": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
-      "id": 9
-    },
-    {
-      "titulo": "Desvelando los secretos del Chat GPT: La revolución de la IA",
-      "descripcion": "9 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/0_y09AwR6ns",
-      "imagen": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
-      "id": 10
-    },
-    {
-      "titulo": "Domina tu flujo de trabajo con Kanban: ¡La guía definitiva para la eficiencia!",
-      "descripcion": "4 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/ew1mwLviTWY",
-      "imagen": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
-      "id": 11
-    },
-    {
-      "titulo": "Empresas que aprenden | #aluramás",
-      "descripcion": "7 mil visualizaciones",
-      "url": "https://www.youtube.com/embed/mwNfWRsDDWE",
-      "imagen": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
-      "id": 12
+      "titulo": "Filtraron el Algoritmo de Google Search",
+      "descripcion": "3964 mil visualizaciones",
+      "url": "https://www.youtube.com/embed/_-hjNLPwVcY",
+      "imagen": "https://yt3.ggpht.com/ytc/AIdro_lPBcTSzb5NqMhKQSo6aaTPcnPM2EZhvhdcQi0YvPmflQ=s88-c-k-c0x00ffffff-no-rj",
+      "id": 6
     }
   ]
 }
