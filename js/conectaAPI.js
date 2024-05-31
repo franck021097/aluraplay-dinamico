@@ -1,12 +1,20 @@
+import getData from 'getData';
+
 async function listaVideos(){
     try{
-        const conexion = await fetch("http://localhost:3001/videos"/*,{
+        // const conexion = await fetch("http://localhost:3001/videos"
+        const client = await pool.connect();
+        const result = await client.query('SELECT * FROM aluraplay');
+        const rows = result.rows;
+
+        console.log(getData.res);
+        /*,{
         method:"GET",
         headers:{
         "Content-type":"application/json",
         "Permissions-Policy": "geolocation=(self `http://localhost:3001/videos`)"
         }
-    }*/);
+    }*/
 
         if(conexion.ok){
             const conexionConvertida=await conexion.json();
