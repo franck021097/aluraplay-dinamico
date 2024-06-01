@@ -27,7 +27,7 @@ async function listaVideosBusqueda(evento){
         } 
         
     }catch(error){
-        // console.log("error.status");
+        console.log("error.status");
         // console.log(error.status);
         lista.classList.add("error__container");
         lista.innerHTML = `<h2 class="message_error">Ups, algo salió mal. <br><br> Error: ${error.status}</h2>`;

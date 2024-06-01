@@ -1,19 +1,19 @@
 
 async function listaVideos(){
     try{
-        const conexion = await fetch("http://localhost:3001/videos");
+        const conexion = await fetch("https://api-alura-dinamico.vercel.app/videos");
         // console.log(conexion);
         /*,{
         method:"GET",
         headers:{
         "Content-type":"application/json",
-        "Permissions-Policy": "geolocation=(self `http://localhost:3001/videos`)"
+        "Permissions-Policy": "geolocation=(self `https://api-alura-dinamico.vercel.app/videos`)"
         }
     }*/
 
         if(conexion.ok){
             const conexionConvertida= await conexion.json();
-            console.log(conexionConvertida);
+            // console.log(conexionConvertida);
             return conexionConvertida;
         }else{
             throw conexion;
@@ -30,33 +30,29 @@ async function listaVideos(){
     }catch(error){
         return error;
     }
-        
-    
 }
 
 async function enviarVideo(titulo,descripcion,url,imagen){
-        const conexion= await fetch("http://localhost:3001/videos",{
+        const conexion= await fetch("https://api-alura-dinamico.vercel.app/videos",{
         method:"POST",
         headers:{
-            'Content-type':'application/json; charset=utf-8',
+            "Content-Type": "application/json",
         },
-        body:JSON.stringify({
+        body: JSON.stringify({
             titulo: titulo,
             descripcion: `${descripcion} mil visualizaciones`,
             url: url,
             imagen: imagen
-        })
-        })
+        }),
+        });
 
-        if (!conexion.ok) throw ("Falló la conexión.");
+        return conexion;
 
-        const conexionConvertida=await conexion.json();
-        return conexionConvertida;
 }
 
 async function buscarVideos(palabraClave){
     try{
-        const conexion = await fetch(`http://localhost:3001/videos?q=${palabraClave}`);
+        const conexion = await fetch(`https://api-alura-dinamico.vercel.app/videos?q=${palabraClave}`);
 
         if (!conexion.ok) throw conexion;
         const conexionConvertida=await conexion.json();
